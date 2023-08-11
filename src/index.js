@@ -1,4 +1,5 @@
-import {comp as tab1}from './tab1';
+import {intializeHome as homeTab}from './site';
+import {loadHome as Home} from './home';
 
-
-tab1();
+homeTab();
+Home();
