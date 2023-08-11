@@ -1,3 +1,4 @@
+import './styles.scss';
 import Bibi from './bibimbap.jpg';
 const cd = document.getElementById('content');
 export function comp()
