@@ -1,3 +1,24 @@
+
+
 p {
     color: blue;
+}
+
+header {
+    background-color: #0D1F23;
+    &>#sideNavBar {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        &>.button-styles {
+            background-color: #2D4A53;
+            border: none;
+        }
+    }
+    
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
